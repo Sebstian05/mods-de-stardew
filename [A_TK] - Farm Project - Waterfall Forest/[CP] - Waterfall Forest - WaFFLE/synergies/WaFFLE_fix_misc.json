@@ -1,0 +1,19 @@
+{
+    "Changes": [
+
+//	WAY BACK PELICAN TOWN FIX
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/WaFFLE_Farm",
+			"FromFile": "options/WaFFLE_EX_Options.tmx",
+			"FromArea": { "X": 137, "Y": 33, "Width": 1, "Height": 1 },
+			"ToArea": { "X": 136, "Y": 46, "Width": 1, "Height": 1 },
+			"PatchMode": "Replace",
+			"When": { 
+				"HasMod": "Gweniaczek.WayBackPT",
+				"Fountain_Decoration_WaFFLE": "True"
+			}
+		}
+	]
+}	  
